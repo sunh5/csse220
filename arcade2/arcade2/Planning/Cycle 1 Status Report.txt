@@ -1,0 +1,7 @@
+2.1 1h Start improving ArcadeUML by group discussion                 /Shixuan, Xiaoli and Yuchen/  
+2.2 1h Design classes during class time and asking for help with the UML            /Xiaoli and Yuchen/
+2.3 4h Group discussion and coding for basic calsses                 /Shixuan, Xiaoli and Yuchen/
+2.4 1h having the first design of the remove and collide function using dots    /Yuchen/
+2.4 1h Self coding for classes responsible                           /Shixuan, Xiaoli and Yuchen/
+2.4 3h Group coding 
+2.5 4h Group discussion&new design made
