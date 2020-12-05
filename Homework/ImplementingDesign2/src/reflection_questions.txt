@@ -1,0 +1,21 @@
+Reflection Questions:
+
+1. Compare your original draft and the final draft. What is the biggest difference between the two?
+	The final draft has less dependence within classes, and adds some useful methods. The overall structure maintain the same. 
+
+
+2. What did you have to change and why did you have to change it? If not, explain how you made your decisions in designing.
+	I first thought the QuizTester class needs access to Quiz class to get the score calculated in Quiz, but
+	I found it is not necessary and it makes class dependent too much with each other. 
+
+
+3. Did you re-use your code from ImplementingDesign1? How much did you have to change it if so? (If not, then please explain why)
+	Yes, I used a little bit of the previous code like getId, getAnswer, build hashmap. These are the only basic methods 
+	that are not helpful to finish the goal of this design. Hence, all the key and useful methods are all new. 
+
+
+4. Select one or more specific design principles and discuss how they relate to the your experience in designing and implementing the code for this assignment.
+	Minimize dependencies​ between objects when it does not disrupt usability or extendability (low coupling).
+	It will avoid creating repeat Question. If you create some Quizs in main, and you recreate them in QuizTester, 
+	it will have the same Quiz in two different locations. Some information will messing or stored into a wrong location that you can not use.
+

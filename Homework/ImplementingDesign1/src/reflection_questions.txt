@@ -1,0 +1,22 @@
+Reflection Questions:
+
+1.A In your implementation could you replace Questions with Strings (yes or no)? 
+	Yes
+
+1.B Why or why not? (2-3 sentences)
+	Because the Question class stores strings for the questions' content and answer.
+	The quizId can also be stored in string instead of integer. 
+
+
+2.A. What data type did you use to represent the 1 to many relationship between QuizMain and Question? (provide type)
+	HashMap<Integer, Question>
+	HashMap<Integer, Quiz>
+
+2.B. What is another type could you have used? (provide type) 
+	ArrayList<Question> questions
+
+
+2.C. Would that have made the code better or worse? Why? (2-3 sentences)
+	Worse, because key of HashMap is unique, which means the ID is unique. It can avoid storing
+	Question to one ID repeatedly. 
+
